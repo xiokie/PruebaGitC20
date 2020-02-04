@@ -1,0 +1,12 @@
+ public static void Factorial(int numero){
+
+        for(int contador=numero-1;contador>0;contador--){
+            System.out.println("  "+numero+"*"+(contador));
+            numero *= contador;
+
+        }
+        if(numero ==0){
+            System.out.println("  El resultado es 1");
+        }
+        System.out.println("  El resultado es " + numero);
+    }
